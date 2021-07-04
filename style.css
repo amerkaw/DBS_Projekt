@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+.Font{
+  width: 100%;
+  height: 100vh;
+  background-image: url(Bilder/image3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.navi1{
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  width: 85%;
+  height: 15%
+  margin:auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navi2{
+  position: absolute;
+  top: 60%;
+  left:8%;
+  width: 85%;
+  height: 15%
+  margin:auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text{
+  position: absolute;
+  top:10%;
+  left: 45%;
+}
+
+
+
+button {
+  width: 300px;
+  height: 150px;
+  padding: 10px 25px
+  border: 1px solid #fff;
+  border radius: 20px;
+  outline: none;
+  cursor: pointer;
+
+}
